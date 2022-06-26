@@ -18,7 +18,7 @@ public class Operacoes {
         } else if (this.listaOperacoes.matches("([0-9]+\\-[0-9]+)+")) {
             return "SUBTRAÇÃO: " + operacao(this.listaOperacoes, '-');
         }
-        return "";
+        return "Operação desconhecida!";
     }
 
     /*
