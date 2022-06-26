@@ -21,17 +21,5 @@
             <a class="btn_voltar" href="/">Voltar</a>
         </div>
     </div>
-
-    <script>
-        const btnSend = document.querySelector("#btn_send");
-
-        btnSend.addEventListener("click", (e) => {
-            e.preventDefault();
-
-            const expr = document.querySelector("#exprID").value;
-
-            window.location.href = `/calcular/${expr}`
-        })
-    </script>
 </body>
 </html>
